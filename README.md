@@ -4,6 +4,9 @@
 
 A feature-rich Spotify clone built with Next.js, Supabase, and TypeScript. This application allows users to browse, play, and upload songs, manage their playlists, and enjoy a modern music streaming experience.
 
+![spotify](https://github.com/user-attachments/assets/249ec6ff-0e0f-44b9-8135-f177859e1686)
+![spotify-login](https://github.com/user-attachments/assets/43ecc5bb-5c36-4093-b42c-6d0dc8f29c0e)
+
 ## Features
 
 - 🎵 **Music Playback**: Play songs directly in the browser with seamless audio streaming.
@@ -58,10 +61,12 @@ yarn install
 
 Create a .env.local file in the root directory and add your environment variables:
 
+```
 NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
 NEXT_PUBLIC_STRIPE_PUBLIC_KEY=your-stripe-public-key
 STRIPE_SECRET_KEY=your-stripe-secret-key
+```
 
 Replace the placeholders with your actual Supabase and Stripe credentials.
 
